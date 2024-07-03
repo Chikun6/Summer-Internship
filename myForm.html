@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+</head>
+<body>
+    <header>Registration Form</header><br>
+    <form action="javascript:submitForm()" onsubmit="return validate()">
+        <label for="dob"> DOB : </label>
+        <input type="date" name="dob" id="dob" placeholder="Eg: 01/04/2002" required><br><br>
+        <label for="name">Name : </label> 
+        <input type="text" name="name" id="name" placeholder="Eg: chikun" required><br><br>
+        <label for="color">Color: </label>
+        <input type="color" name="color" id="color"><br><br>
+        <input type = "submit" name = "submit" value = "Submit">
+    </form>
+    <script>
+        function validate() {
+            let namee = document.getElementById("name");
+            let col = document.getElementById("color");
+            if(namee.value.length <= 10) {
+                window.alert("Name must be greater than 10 characters long");
+                return false;
+            }
+            else if(col.value != "#000000"){
+                window.alert("Color must be black");
+                return false;
+            } else {
+                return true;
+            }
+        }
+            function submitForm(){
+                window.alert("Form Submitted");
+            }
+    </script>
+
+</body>
+</html>

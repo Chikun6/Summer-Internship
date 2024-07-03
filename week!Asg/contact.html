@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <!--  <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="logo" width="50px" height="50px">
+        </div>
+        <div class="sitename">&nbsp;CONTACT</div>
+    </header>-->
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="logo" width="50px" height="50px">
+        </div>
+        <div class="sitename"><a href="homepage.html">Crypto World</a></div>
+        <div class="contact"><h2>CONTACT</h2> </div>
+    </header>
+    <div class="main">
+        <div class="content">
+            <p>
+              <b>  Thanks for exploring our website<br>If you have any problem feel free to contact us..<br>
+            we will respond as soon as possible </p></p>
+        </div>
+        <div>
+            <label><h3>FORM</h3></label>
+        </div>
+        <div class="form">
+                <form action="javascript:submitForm()" onsubmit="return validate()">
+                   <label for="name">Name : </label> 
+                    <input type="text" name="name" id="name" placeholder="Eg: chikun" required><br><br>
+                    <label for="email"> Email : </label>
+                    <input type="text" name="email" id="email" placeholder="Eg: chikun@gmail.com" required><br><br>
+                    <label for="genre">Favourite genre: </label>
+                    <input list="cryptos" name="crypto" id="crypto">
+                    <datalist id="cryptos">
+                        <option value="Bitcoin">
+                        <option value="Ethereum">
+                        <option value="Binance">
+                        <option value="Solana">
+                        <option value="Cardano">
+                        <option value="Mitosis">
+                    </datalist><br><br>
+                    <label><input type="checkbox" >Subscribe to our NewsLetter via Email</label><br><br>
+                    <input type = "submit" name = "submit" value = "Submit">
+                </form><br>
+        </div>
+            <div>
+                <h5>Copyrights ©2024 Crypto-World All rights reserved</h5>
+            </div>
+        </section>
+    </div>
+    
+</body>
+</html>

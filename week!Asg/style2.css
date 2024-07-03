@@ -1,0 +1,113 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+    background-image: url("IMG_20240630_193747.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size : cover;
+    background-attachment: scroll;
+    box-sizing: border-box;
+}
+main{
+    padding: 30px;
+}
+/*header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: larger;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+    color: aliceblue;
+    background-color: #070606;
+}
+.sitename{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    text-decoration-color: azure;
+}*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    z-index: 1;
+    color: rgb(62, 107, 155);
+    background-color: #070606;
+}
+
+.sitename a{
+    text-align: left;
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration-color: rgb(17, 228, 228);
+    text-decoration-line: none ;
+}
+.content{
+    font-size:x-large;
+    font-weight:bold ;
+
+}
+.main{
+    text-align: center;
+    border: 1px solid #070606;
+    max-width: 600px;
+    margin: 50px auto;  
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: rgb(34, 147, 155);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding: 20px;
+    margin: 0;
+    font-size: larger;
+}
+input[type="submit"]{
+    padding: 10px 20px;
+    border-color:black;
+    background-color: aqua;
+    font-size: medium;
+    border-radius: 20px;
+}
+input[type="text"]{
+    padding: 7px 15px;
+    border-color:black;
+    border-radius: 20px;
+}
+input[list="cryptos"]{
+    padding: 7px 15px;
+    border-color:black;
+    border-radius: 20px;
+
+}
+footer {
+    text-align: center;
+    font-size: medium;
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 10px;
+    background-color: #4c4747ef;
+    font-size: 12px;
+}
+.contact {
+    font-family :monospace;
+    text-align: right;
+    font-size: larger;
+    font-weight: 400;
+    color: rgb(106, 130, 150);
+    text-decoration-line: none;
+}

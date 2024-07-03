@@ -1,0 +1,52 @@
+/* h1 = selector
+   color = property
+   blue = value
+*/
+h1 {
+  color : red;
+  font-size: 40px;
+}
+/* Here h1 is called element Selector */
+
+
+/* CSS class Selector */
+.cssClassSelector {
+  color : blue;
+  font-size: large;
+}
+
+/* CSS id Selector */
+#cssIdselector {
+  color: red;
+  font-size: small;
+}
+
+/* Specific element with particular class */
+p.para {
+  color : red;
+}
+
+/* Multiple Classes on a single element */
+
+.colorP {
+  color : red;
+}
+
+.fontP {
+  font-size : 50px;
+}
+
+
+/* Universal Selector */
+{
+  text-align : center;
+} 
+/*priority will be given in following order:
+1) In-line css
+2) Internal css
+3) External css
+*/
+/* CSS Grouping Selector */
+h2, h4 {
+  text-align: end;
+}
